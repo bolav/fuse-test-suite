@@ -14,12 +14,6 @@ if [ $exitcode -ne 0 ]; then
 	echo Failed uno $name : $exitcode
 	exit $exitcode
 fi
-fuse host-preview --compile-only *_example.unoproj
-exitcode=$?
-if [ $exitcode -ne 0 ]; then
-	echo Failed host-preview $name : $exitcode
-	exit $exitcode
-fi
 uno build -tiOS *_example.unoproj
 exitcode=$?
 if [ $exitcode -ne 0 ]; then
