@@ -8,6 +8,12 @@ if [ $exitcode -ne 0 ]; then
 	exit $exitcode
 fi
 cd clone
+fusepm install --unoproj *_example.unoproj
+exitcode=$?
+if [ $exitcode -ne 0 ]; then
+	echo Failed fusepm install $name : $exitcode
+	exit $exitcode
+fi
 uno build *_example.unoproj
 exitcode=$?
 if [ $exitcode -ne 0 ]; then
