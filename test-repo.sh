@@ -2,6 +2,7 @@ name=$1
 rm -rf clone
 echo git clone $name clone
 git clone $name clone
+git checkout fuse_0.20
 exitcode=$?
 if [ $exitcode -ne 0 ]; then
 	echo Failed git $name : $exitcode
