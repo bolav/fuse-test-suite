@@ -8,6 +8,7 @@ if [ $exitcode -ne 0 ]; then
 	exit $exitcode
 fi
 cd clone
+git checkout fuse_0.20
 fusepm install --unoproj *_example.unoproj
 exitcode=$?
 if [ $exitcode -ne 0 ]; then

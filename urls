@@ -1,14 +1,15 @@
+https://github.com/bolav/fuse-dropbox
+https://github.com/bolav/fuse-gallery
+https://github.com/bolav/fuse-modalview
+https://github.com/bolav/fuse-whilevisibleinscrollview
+https://github.com/bolav/fuse-sqlite
 https://github.com/bolav/fuse-homescreen
 https://github.com/bolav/fuse-cachingimagesource
 https://github.com/bolav/fuse-camerapanel
-https://github.com/bolav/fuse-sqlite
 https://github.com/bolav/fuse-testfairy
 https://github.com/bolav/fuse-touchid
 https://github.com/bolav/fuse-contacts
 https://github.com/bolav/fuse-datepicker
-https://github.com/bolav/fuse-gallery
-https://github.com/bolav/fuse-modalview
-https://github.com/bolav/fuse-whilevisibleinscrollview
 
 # Failing because it needs gradle
 https://github.com/bolav/fuse-facebook-login
