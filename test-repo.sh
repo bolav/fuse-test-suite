@@ -27,7 +27,7 @@ if [ $exitcode -ne 0 ]; then
 	echo Failed iOS $name : $exitcode
 	exit $exitcode
 fi
-uno build -tAndroid *_example.unoproj
+uno build -tAndroid -DGRADLE *_example.unoproj
 exitcode=$?
 if [ $exitcode -ne 0 ]; then
 	echo Failed Android $name : $exitcode
